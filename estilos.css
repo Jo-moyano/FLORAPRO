@@ -1,0 +1,24 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f7f3;color:#26352b}
+.encabezado{background:#1f5d3a;color:#fff;padding:28px 6%;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.encabezado h1{margin:0;font-size:32px}.encabezado p{margin:8px 0 0;opacity:.9}
+.contenedor{width:min(1200px,92%);margin:28px auto}
+.bienvenida{margin-bottom:22px}.bienvenida h2{margin-bottom:6px}
+.filtros{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;background:#fff;padding:20px;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,.07)}
+.campo label{display:block;font-weight:700;margin-bottom:7px}
+select{width:100%;padding:11px;border:1px solid #c9d3cb;border-radius:8px;background:#fff;font-size:15px}
+select:disabled{background:#edf0ed;color:#8a918c}
+.resumen{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:20px 0}
+.tarjeta{background:#fff;border-radius:12px;padding:17px;box-shadow:0 2px 10px rgba(0,0,0,.07);min-height:78px}
+.tarjeta span{display:block;color:#66736a;font-size:13px;margin-bottom:8px}.tarjeta strong{font-size:20px}
+.seccion{background:#fff;margin:20px 0;padding:22px;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,.07)}
+.titulo-seccion h2{margin:0 0 5px}.titulo-seccion p{margin:0 0 16px;color:#68746b}
+.tabla-contenedor{overflow-x:auto}
+table{width:100%;border-collapse:collapse}th,td{padding:11px 12px;border-bottom:1px solid #e1e7e2;text-align:left}th{background:#eef4ef;font-weight:700}
+tr:hover td{background:#f8fbf8}.total td{font-weight:700;background:#f0f5f1}
+.nota{margin-top:14px;padding:12px;background:#f0f5f1;border-left:4px solid #1f5d3a;border-radius:6px}
+.analisis{border-left:5px solid #1f5d3a}.analisis p{line-height:1.55}
+footer{text-align:center;padding:25px;color:#68746b}
+@media(max-width:850px){.filtros{grid-template-columns:1fr}.resumen{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.resumen{grid-template-columns:1fr}}

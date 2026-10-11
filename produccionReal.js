@@ -1,0 +1,7089 @@
+const produccionRealReporte = [
+    {
+        "VARIEDAD": "ANTIGUA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ANTIGUA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ANTIGUA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 3800
+    },
+    {
+        "VARIEDAD": "ANTIGUA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 200
+    },
+    {
+        "VARIEDAD": "ANTIGUA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 1900
+    },
+    {
+        "VARIEDAD": "ANTIGUA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ANTIGUA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 2200
+    },
+    {
+        "VARIEDAD": "ARAGON",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 5600
+    },
+    {
+        "VARIEDAD": "ARAGON",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ARAGON",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ARAGON",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 4200
+    },
+    {
+        "VARIEDAD": "ARAGON",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ARAGON",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 2200
+    },
+    {
+        "VARIEDAD": "ARAGON",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 2300
+    },
+    {
+        "VARIEDAD": "ARTIC",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 4500
+    },
+    {
+        "VARIEDAD": "ARTIC",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ARTIC",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 2500
+    },
+    {
+        "VARIEDAD": "ARTIC",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 3100
+    },
+    {
+        "VARIEDAD": "ARTIC",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 2400
+    },
+    {
+        "VARIEDAD": "ARTIC",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ARTIC",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 1900
+    },
+    {
+        "VARIEDAD": "ATHENA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ATHENA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ATHENA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ATHENA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 2800
+    },
+    {
+        "VARIEDAD": "ATHENA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 2700
+    },
+    {
+        "VARIEDAD": "ATHENA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ATHENA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 1500
+    },
+    {
+        "VARIEDAD": "BARULLO",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2700
+    },
+    {
+        "VARIEDAD": "BARULLO",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BARULLO",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BARULLO",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 2300
+    },
+    {
+        "VARIEDAD": "BARULLO",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BARULLO",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BARULLO",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 2300
+    },
+    {
+        "VARIEDAD": "BOOGIE",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2500
+    },
+    {
+        "VARIEDAD": "BOOGIE",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BOOGIE",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BOOGIE",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 900
+    },
+    {
+        "VARIEDAD": "BOOGIE",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BOOGIE",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BOOGIE",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRIDAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 100
+    },
+    {
+        "VARIEDAD": "BRIDAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRIDAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRIDAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRIDAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRIDAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRIDAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRUT",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 3100
+    },
+    {
+        "VARIEDAD": "BRUT",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRUT",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRUT",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRUT",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 3200
+    },
+    {
+        "VARIEDAD": "BRUT",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "BRUT",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 5100
+    },
+    {
+        "VARIEDAD": "CAESAR",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 8600
+    },
+    {
+        "VARIEDAD": "CAESAR",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CAESAR",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CAESAR",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CAESAR",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 1500
+    },
+    {
+        "VARIEDAD": "CAESAR",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CAESAR",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 1700
+    },
+    {
+        "VARIEDAD": "CARAMEL",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 8300
+    },
+    {
+        "VARIEDAD": "CARAMEL",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 100
+    },
+    {
+        "VARIEDAD": "CARAMEL",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 2300
+    },
+    {
+        "VARIEDAD": "CARAMEL",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 600
+    },
+    {
+        "VARIEDAD": "CARAMEL",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CARAMEL",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CARAMEL",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 2400
+    },
+    {
+        "VARIEDAD": "CAROLINE GOLD",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CAROLINE GOLD",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 8500
+    },
+    {
+        "VARIEDAD": "CAROLINE GOLD",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CAROLINE GOLD",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CAROLINE GOLD",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 5000
+    },
+    {
+        "VARIEDAD": "CAROLINE GOLD",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CAROLINE GOLD",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 5700
+    },
+    {
+        "VARIEDAD": "CELESTE",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CELESTE",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CELESTE",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 300
+    },
+    {
+        "VARIEDAD": "CELESTE",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CELESTE",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CELESTE",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CELESTE",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHATEAU",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2800
+    },
+    {
+        "VARIEDAD": "CHATEAU",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHATEAU",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHATEAU",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 1100
+    },
+    {
+        "VARIEDAD": "CHATEAU",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 700
+    },
+    {
+        "VARIEDAD": "CHATEAU",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHATEAU",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 6600
+    },
+    {
+        "VARIEDAD": "CHEERIO",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHEERIO",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 200
+    },
+    {
+        "VARIEDAD": "CHEERIO",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 4200
+    },
+    {
+        "VARIEDAD": "CHEERIO",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHEERIO",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 3000
+    },
+    {
+        "VARIEDAD": "CHEERIO",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHEERIO",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 100
+    },
+    {
+        "VARIEDAD": "CHERRY TESSINO",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 1300
+    },
+    {
+        "VARIEDAD": "CHERRY TESSINO",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHERRY TESSINO",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 3100
+    },
+    {
+        "VARIEDAD": "CHERRY TESSINO",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 2400
+    },
+    {
+        "VARIEDAD": "CHERRY TESSINO",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHERRY TESSINO",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "CHERRY TESSINO",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 800
+    },
+    {
+        "VARIEDAD": "COSMOCHERRY",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "COSMOCHERRY",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "COSMOCHERRY",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 1400
+    },
+    {
+        "VARIEDAD": "COSMOCHERRY",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "COSMOCHERRY",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "COSMOCHERRY",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 700
+    },
+    {
+        "VARIEDAD": "COSMOCHERRY",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 1800
+    },
+    {
+        "VARIEDAD": "DANIKO",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 5100
+    },
+    {
+        "VARIEDAD": "DANIKO",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANIKO",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANIKO",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANIKO",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANIKO",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANIKO",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANY",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANY",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANY",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANY",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 4500
+    },
+    {
+        "VARIEDAD": "DANY",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANY",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DANY",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 4200
+    },
+    {
+        "VARIEDAD": "DON PEDRO",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 5800
+    },
+    {
+        "VARIEDAD": "DON PEDRO",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 6500
+    },
+    {
+        "VARIEDAD": "DON PEDRO",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 6000
+    },
+    {
+        "VARIEDAD": "DON PEDRO",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 6700
+    },
+    {
+        "VARIEDAD": "DON PEDRO",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 12900
+    },
+    {
+        "VARIEDAD": "DON PEDRO",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DON PEDRO",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 14200
+    },
+    {
+        "VARIEDAD": "DONCEL",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 11500
+    },
+    {
+        "VARIEDAD": "DONCEL",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 9300
+    },
+    {
+        "VARIEDAD": "DONCEL",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 4200
+    },
+    {
+        "VARIEDAD": "DONCEL",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 4800
+    },
+    {
+        "VARIEDAD": "DONCEL",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 10900
+    },
+    {
+        "VARIEDAD": "DONCEL",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "DONCEL",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 4600
+    },
+    {
+        "VARIEDAD": "EPSILON",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "EPSILON",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "EPSILON",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "EPSILON",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 2300
+    },
+    {
+        "VARIEDAD": "EPSILON",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "EPSILON",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 1800
+    },
+    {
+        "VARIEDAD": "EPSILON",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 4900
+    },
+    {
+        "VARIEDAD": "FARIDA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FARIDA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 1100
+    },
+    {
+        "VARIEDAD": "FARIDA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 7500
+    },
+    {
+        "VARIEDAD": "FARIDA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FARIDA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FARIDA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FARIDA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 3800
+    },
+    {
+        "VARIEDAD": "FIERO",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIERO",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIERO",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIERO",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIERO",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 4000
+    },
+    {
+        "VARIEDAD": "FIERO",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIERO",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIESTA KOMACHI",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 1000
+    },
+    {
+        "VARIEDAD": "FIESTA KOMACHI",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 1700
+    },
+    {
+        "VARIEDAD": "FIESTA KOMACHI",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIESTA KOMACHI",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIESTA KOMACHI",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIESTA KOMACHI",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "FIESTA KOMACHI",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 6600
+    },
+    {
+        "VARIEDAD": "GOBLIN",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 500
+    },
+    {
+        "VARIEDAD": "GOBLIN",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "GOBLIN",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 2500
+    },
+    {
+        "VARIEDAD": "GOBLIN",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "GOBLIN",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "GOBLIN",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "GOBLIN",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "GOLEM",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 800
+    },
+    {
+        "VARIEDAD": "GOLEM",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 4000
+    },
+    {
+        "VARIEDAD": "GOLEM",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 5600
+    },
+    {
+        "VARIEDAD": "GOLEM",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "GOLEM",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "GOLEM",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "GOLEM",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 9100
+    },
+    {
+        "VARIEDAD": "HAMADA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 3300
+    },
+    {
+        "VARIEDAD": "HAMADA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "HAMADA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "HAMADA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "HAMADA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "HAMADA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 1100
+    },
+    {
+        "VARIEDAD": "HAMADA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 2800
+    },
+    {
+        "VARIEDAD": "HERMES",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 4300
+    },
+    {
+        "VARIEDAD": "HERMES",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 4700
+    },
+    {
+        "VARIEDAD": "HERMES",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "HERMES",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 2300
+    },
+    {
+        "VARIEDAD": "HERMES",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 4100
+    },
+    {
+        "VARIEDAD": "HERMES",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 1000
+    },
+    {
+        "VARIEDAD": "HERMES",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 5700
+    },
+    {
+        "VARIEDAD": "HERMES ORANGE",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "HERMES ORANGE",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 3300
+    },
+    {
+        "VARIEDAD": "HERMES ORANGE",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 10100
+    },
+    {
+        "VARIEDAD": "HERMES ORANGE",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "HERMES ORANGE",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 13400
+    },
+    {
+        "VARIEDAD": "HERMES ORANGE",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "HERMES ORANGE",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 10100
+    },
+    {
+        "VARIEDAD": "IKEBANA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 3600
+    },
+    {
+        "VARIEDAD": "IKEBANA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 3200
+    },
+    {
+        "VARIEDAD": "IKEBANA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 2000
+    },
+    {
+        "VARIEDAD": "IKEBANA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 2200
+    },
+    {
+        "VARIEDAD": "IKEBANA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 2800
+    },
+    {
+        "VARIEDAD": "IKEBANA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "IKEBANA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 9400
+    },
+    {
+        "VARIEDAD": "JADE",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "JADE",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "JADE",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "JADE",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 5800
+    },
+    {
+        "VARIEDAD": "JADE",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "JADE",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 1100
+    },
+    {
+        "VARIEDAD": "JADE",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 2600
+    },
+    {
+        "VARIEDAD": "KOMACHI",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2100
+    },
+    {
+        "VARIEDAD": "KOMACHI",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 8900
+    },
+    {
+        "VARIEDAD": "KOMACHI",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "KOMACHI",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 3300
+    },
+    {
+        "VARIEDAD": "KOMACHI",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 7400
+    },
+    {
+        "VARIEDAD": "KOMACHI",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "KOMACHI",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 3300
+    },
+    {
+        "VARIEDAD": "LEGE MARRONE",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2800
+    },
+    {
+        "VARIEDAD": "LEGE MARRONE",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 300
+    },
+    {
+        "VARIEDAD": "LEGE MARRONE",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 2200
+    },
+    {
+        "VARIEDAD": "LEGE MARRONE",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LEGE MARRONE",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 400
+    },
+    {
+        "VARIEDAD": "LEGE MARRONE",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LEGE MARRONE",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LEGE PINK",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2100
+    },
+    {
+        "VARIEDAD": "LEGE PINK",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 1000
+    },
+    {
+        "VARIEDAD": "LEGE PINK",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LEGE PINK",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LEGE PINK",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 800
+    },
+    {
+        "VARIEDAD": "LEGE PINK",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LEGE PINK",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 2000
+    },
+    {
+        "VARIEDAD": "LILAC MELISSA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LILAC MELISSA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LILAC MELISSA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 200
+    },
+    {
+        "VARIEDAD": "LILAC MELISSA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 2400
+    },
+    {
+        "VARIEDAD": "LILAC MELISSA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 400
+    },
+    {
+        "VARIEDAD": "LILAC MELISSA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LILAC MELISSA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 1400
+    },
+    {
+        "VARIEDAD": "LINA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 8600
+    },
+    {
+        "VARIEDAD": "LINA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LINA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 300
+    },
+    {
+        "VARIEDAD": "LINA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 4000
+    },
+    {
+        "VARIEDAD": "LINA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 700
+    },
+    {
+        "VARIEDAD": "LINA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LINA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 6300
+    },
+    {
+        "VARIEDAD": "LIZZY",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LIZZY",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LIZZY",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LIZZY",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LIZZY",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "LIZZY",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 1200
+    },
+    {
+        "VARIEDAD": "LIZZY",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MANDALAY",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MANDALAY",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 1600
+    },
+    {
+        "VARIEDAD": "MANDALAY",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MANDALAY",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MANDALAY",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MANDALAY",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MANDALAY",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MARIPOSA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 1300
+    },
+    {
+        "VARIEDAD": "MARIPOSA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 1700
+    },
+    {
+        "VARIEDAD": "MARIPOSA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MARIPOSA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 3000
+    },
+    {
+        "VARIEDAD": "MARIPOSA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 1200
+    },
+    {
+        "VARIEDAD": "MARIPOSA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MARIPOSA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MELISSA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MELISSA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MELISSA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MELISSA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MELISSA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 2500
+    },
+    {
+        "VARIEDAD": "MELISSA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MELISSA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 1500
+    },
+    {
+        "VARIEDAD": "MINUETTO",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 300
+    },
+    {
+        "VARIEDAD": "MINUETTO",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MINUETTO",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 300
+    },
+    {
+        "VARIEDAD": "MINUETTO",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 1500
+    },
+    {
+        "VARIEDAD": "MINUETTO",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MINUETTO",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MINUETTO",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 2200
+    },
+    {
+        "VARIEDAD": "MOCHA SWEET",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOCHA SWEET",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOCHA SWEET",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 1000
+    },
+    {
+        "VARIEDAD": "MOCHA SWEET",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOCHA SWEET",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOCHA SWEET",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOCHA SWEET",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOON GOLEM",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOON GOLEM",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOON GOLEM",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOON GOLEM",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOON GOLEM",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 300
+    },
+    {
+        "VARIEDAD": "MOON GOLEM",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOON GOLEM",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "MOON LIGHT",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 8400
+    },
+    {
+        "VARIEDAD": "MOON LIGHT",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 13200
+    },
+    {
+        "VARIEDAD": "MOON LIGHT",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 6100
+    },
+    {
+        "VARIEDAD": "MOON LIGHT",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 15300
+    },
+    {
+        "VARIEDAD": "MOON LIGHT",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 9100
+    },
+    {
+        "VARIEDAD": "MOON LIGHT",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 1900
+    },
+    {
+        "VARIEDAD": "MOON LIGHT",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 12100
+    },
+    {
+        "VARIEDAD": "NIMBUS",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2200
+    },
+    {
+        "VARIEDAD": "NIMBUS",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "NIMBUS",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "NIMBUS",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 1300
+    },
+    {
+        "VARIEDAD": "NIMBUS",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "NIMBUS",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "NIMBUS",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "NOVIA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "NOVIA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 3800
+    },
+    {
+        "VARIEDAD": "NOVIA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 5700
+    },
+    {
+        "VARIEDAD": "NOVIA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "NOVIA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "NOVIA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "NOVIA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 1200
+    },
+    {
+        "VARIEDAD": "OLYMPIA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "OLYMPIA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 4300
+    },
+    {
+        "VARIEDAD": "OLYMPIA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "OLYMPIA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "OLYMPIA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "OLYMPIA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "OLYMPIA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PERFECT",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 1400
+    },
+    {
+        "VARIEDAD": "PERFECT",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PERFECT",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PERFECT",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PERFECT",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PERFECT",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PERFECT",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PIGEON",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 3700
+    },
+    {
+        "VARIEDAD": "PIGEON",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PIGEON",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PIGEON",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 6200
+    },
+    {
+        "VARIEDAD": "PIGEON",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 500
+    },
+    {
+        "VARIEDAD": "PIGEON",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 4500
+    },
+    {
+        "VARIEDAD": "PIGEON",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 11100
+    },
+    {
+        "VARIEDAD": "PINK PIGEON",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2900
+    },
+    {
+        "VARIEDAD": "PINK PIGEON",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PINK PIGEON",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 500
+    },
+    {
+        "VARIEDAD": "PINK PIGEON",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 10200
+    },
+    {
+        "VARIEDAD": "PINK PIGEON",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PINK PIGEON",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 800
+    },
+    {
+        "VARIEDAD": "PINK PIGEON",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 18700
+    },
+    {
+        "VARIEDAD": "PRADO MINT",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PRADO MINT",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 1300
+    },
+    {
+        "VARIEDAD": "PRADO MINT",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 1500
+    },
+    {
+        "VARIEDAD": "PRADO MINT",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 3300
+    },
+    {
+        "VARIEDAD": "PRADO MINT",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 2500
+    },
+    {
+        "VARIEDAD": "PRADO MINT",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "PRADO MINT",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 4900
+    },
+    {
+        "VARIEDAD": "RODAS",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 3400
+    },
+    {
+        "VARIEDAD": "RODAS",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 4000
+    },
+    {
+        "VARIEDAD": "RODAS",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 700
+    },
+    {
+        "VARIEDAD": "RODAS",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "RODAS",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "RODAS",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "RODAS",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ROMANY",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ROMANY",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ROMANY",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ROMANY",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ROMANY",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 400
+    },
+    {
+        "VARIEDAD": "ROMANY",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ROMANY",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 1900
+    },
+    {
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 900
+    },
+    {
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 1500
+    },
+    {
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 1300
+    },
+    {
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SKY LINE",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2300
+    },
+    {
+        "VARIEDAD": "SKY LINE",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SKY LINE",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SKY LINE",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 1400
+    },
+    {
+        "VARIEDAD": "SKY LINE",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SKY LINE",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SKY LINE",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 5100
+    },
+    {
+        "VARIEDAD": "SOLEX",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SOLEX",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 2200
+    },
+    {
+        "VARIEDAD": "SOLEX",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SOLEX",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SOLEX",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SOLEX",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "SOLEX",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "TONIC GOLEM",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 4400
+    },
+    {
+        "VARIEDAD": "TONIC GOLEM",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "TONIC GOLEM",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 6400
+    },
+    {
+        "VARIEDAD": "TONIC GOLEM",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 500
+    },
+    {
+        "VARIEDAD": "TONIC GOLEM",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 1900
+    },
+    {
+        "VARIEDAD": "TONIC GOLEM",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "TONIC GOLEM",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 2200
+    },
+    {
+        "VARIEDAD": "VERONA",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 1200
+    },
+    {
+        "VARIEDAD": "VERONA",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 5700
+    },
+    {
+        "VARIEDAD": "VERONA",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 1400
+    },
+    {
+        "VARIEDAD": "VERONA",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "VERONA",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 4500
+    },
+    {
+        "VARIEDAD": "VERONA",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "VERONA",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 6100
+    },
+    {
+        "VARIEDAD": "VIRGILIO",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "VIRGILIO",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 6000
+    },
+    {
+        "VARIEDAD": "VIRGILIO",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "VIRGILIO",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "VIRGILIO",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "VIRGILIO",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "VIRGILIO",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "YUKARI CHERRY",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 2800
+    },
+    {
+        "VARIEDAD": "YUKARI CHERRY",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 4000
+    },
+    {
+        "VARIEDAD": "YUKARI CHERRY",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "YUKARI CHERRY",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "YUKARI CHERRY",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "YUKARI CHERRY",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "YUKARI CHERRY",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ZEPPELIN",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 900
+    },
+    {
+        "VARIEDAD": "ZEPPELIN",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 5300
+    },
+    {
+        "VARIEDAD": "ZEPPELIN",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 3500
+    },
+    {
+        "VARIEDAD": "ZEPPELIN",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 1300
+    },
+    {
+        "VARIEDAD": "ZEPPELIN",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 2800
+    },
+    {
+        "VARIEDAD": "ZEPPELIN",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ZEPPELIN",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 7700
+    },
+    {
+        "VARIEDAD": "ZURIGO",
+        "SUPERVISOR_REPORTE": "DORALY FORERO",
+        "PRODUCCION_REAL": 1100
+    },
+    {
+        "VARIEDAD": "ZURIGO",
+        "SUPERVISOR_REPORTE": "LILIANA GARAVITO",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ZURIGO",
+        "SUPERVISOR_REPORTE": "MARCELA OSUNA",
+        "PRODUCCION_REAL": 5300
+    },
+    {
+        "VARIEDAD": "ZURIGO",
+        "SUPERVISOR_REPORTE": "MONICA PRADA",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ZURIGO",
+        "SUPERVISOR_REPORTE": "SANDRA AGUIRRE",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ZURIGO",
+        "SUPERVISOR_REPORTE": "SANDRA RODRIGUEZ",
+        "PRODUCCION_REAL": 0
+    },
+    {
+        "VARIEDAD": "ZURIGO",
+        "SUPERVISOR_REPORTE": "INGRID VILLAMIL",
+        "PRODUCCION_REAL": 7800
+    }
+];
+
+const produccionRealPorNave = [
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ANTIGUA",
+        "PRODUCCION_REAL_SIMULADA": 3800,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ANTIGUA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "ANTIGUA",
+        "PRODUCCION_REAL_SIMULADA": 200,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ANTIGUA",
+        "PRODUCCION_REAL_SIMULADA": 1900,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ANTIGUA",
+        "PRODUCCION_REAL_SIMULADA": 2200,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ANTIGUA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 1400,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 2940,
+        "PROYECCION_45": 2100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 1260,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 0,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 2032,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 136,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 2032,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 1643,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 657,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARAGON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 4500,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 1667,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 20,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 833,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 3100,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 2400,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 518,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 864,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 50,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 345,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 36,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 173,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ARTIC",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 0,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "ATHENA",
+        "PRODUCCION_REAL_SIMULADA": 1400,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "ATHENA",
+        "PRODUCCION_REAL_SIMULADA": 1400,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ATHENA",
+        "PRODUCCION_REAL_SIMULADA": 1929,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ATHENA",
+        "PRODUCCION_REAL_SIMULADA": 771,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ATHENA",
+        "PRODUCCION_REAL_SIMULADA": 1500,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "BARULLO",
+        "PRODUCCION_REAL_SIMULADA": 2700,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 31,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "BARULLO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "BARULLO",
+        "PRODUCCION_REAL_SIMULADA": 863,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "BARULLO",
+        "PRODUCCION_REAL_SIMULADA": 1437,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "BARULLO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "BARULLO",
+        "PRODUCCION_REAL_SIMULADA": 1769,
+        "PROYECCION_45": 2000
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 41,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "BARULLO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 47,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "BARULLO",
+        "PRODUCCION_REAL_SIMULADA": 531,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "BARULLO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "BOOGIE",
+        "PRODUCCION_REAL_SIMULADA": 1250,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "BOOGIE",
+        "PRODUCCION_REAL_SIMULADA": 1250,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "BOOGIE",
+        "PRODUCCION_REAL_SIMULADA": 900,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "BRUT",
+        "PRODUCCION_REAL_SIMULADA": 3100,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "BRUT",
+        "PRODUCCION_REAL_SIMULADA": 3200,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "BRUT",
+        "PRODUCCION_REAL_SIMULADA": 5100,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "BRUT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "BRUT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CAESAR",
+        "PRODUCCION_REAL_SIMULADA": 307,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CAESAR",
+        "PRODUCCION_REAL_SIMULADA": 5529,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CAESAR",
+        "PRODUCCION_REAL_SIMULADA": 2764,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "CAESAR",
+        "PRODUCCION_REAL_SIMULADA": 1500,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "CAESAR",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CAESAR",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CAESAR",
+        "PRODUCCION_REAL_SIMULADA": 1700,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 38,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CAESAR",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 48,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CAESAR",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CARAMEL",
+        "PRODUCCION_REAL_SIMULADA": 5188,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CARAMEL",
+        "PRODUCCION_REAL_SIMULADA": 3112,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CARAMEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 16,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "CARAMEL",
+        "PRODUCCION_REAL_SIMULADA": 100,
+        "PROYECCION_45": 5000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "CARAMEL",
+        "PRODUCCION_REAL_SIMULADA": 2300,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "CARAMEL",
+        "PRODUCCION_REAL_SIMULADA": 600,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CARAMEL",
+        "PRODUCCION_REAL_SIMULADA": 1600,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CARAMEL",
+        "PRODUCCION_REAL_SIMULADA": 800,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "CAROLINE GOLD",
+        "PRODUCCION_REAL_SIMULADA": 4857,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "CAROLINE GOLD",
+        "PRODUCCION_REAL_SIMULADA": 3643,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "CAROLINE GOLD",
+        "PRODUCCION_REAL_SIMULADA": 5000,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CAROLINE GOLD",
+        "PRODUCCION_REAL_SIMULADA": 5700,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 1867,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 36,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 933,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 1100,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 250,
+        "PROYECCION_45": 2500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 450,
+        "PROYECCION_45": 4500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 2475,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 31,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CHATEAU",
+        "PRODUCCION_REAL_SIMULADA": 4125,
+        "PROYECCION_45": 2000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "CHEERIO",
+        "PRODUCCION_REAL_SIMULADA": 200,
+        "PROYECCION_45": 2500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "CHEERIO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "CHEERIO",
+        "PRODUCCION_REAL_SIMULADA": 840,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "CHEERIO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "CHEERIO",
+        "PRODUCCION_REAL_SIMULADA": 3360,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "CHEERIO",
+        "PRODUCCION_REAL_SIMULADA": 2250,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "CHEERIO",
+        "PRODUCCION_REAL_SIMULADA": 750,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CHEERIO",
+        "PRODUCCION_REAL_SIMULADA": 50,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CHEERIO",
+        "PRODUCCION_REAL_SIMULADA": 50,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CHERRY TESSINO",
+        "PRODUCCION_REAL_SIMULADA": 650,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "CHERRY TESSINO",
+        "PRODUCCION_REAL_SIMULADA": 650,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "CHERRY TESSINO",
+        "PRODUCCION_REAL_SIMULADA": 2325,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 20,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "CHERRY TESSINO",
+        "PRODUCCION_REAL_SIMULADA": 775,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "CHERRY TESSINO",
+        "PRODUCCION_REAL_SIMULADA": 1662,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "CHERRY TESSINO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "CHERRY TESSINO",
+        "PRODUCCION_REAL_SIMULADA": 738,
+        "PROYECCION_45": 400
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "CHERRY TESSINO",
+        "PRODUCCION_REAL_SIMULADA": 800,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "COSMOCHERRY",
+        "PRODUCCION_REAL_SIMULADA": 1400,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 20,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "COSMOCHERRY",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "COSMOCHERRY",
+        "PRODUCCION_REAL_SIMULADA": 1800,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DANIKO",
+        "PRODUCCION_REAL_SIMULADA": 5100,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DANY",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DANY",
+        "PRODUCCION_REAL_SIMULADA": 3000,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DANY",
+        "PRODUCCION_REAL_SIMULADA": 1500,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DANY",
+        "PRODUCCION_REAL_SIMULADA": 4200,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DANY",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 5800,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 6500,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 1500,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 4500,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 2010,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 4690,
+        "PROYECCION_45": 3500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 4691,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 3518,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 4691,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 6042,
+        "PROYECCION_45": 4000
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 1360,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 2266,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 1813,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 453,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 1360,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DON PEDRO",
+        "PRODUCCION_REAL_SIMULADA": 906,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 2500,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 3000,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 2250,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 3750,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 1268,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 1268,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 1691,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 16,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 1691,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 16,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 846,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 16,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 16,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 2536,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 35,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 1260,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 420,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 2520,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 4800,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 3114,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 3114,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 2336,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 2336,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 31,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 1533,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 32,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 2556,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 511,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "DONCEL",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 0,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "EPSILON",
+        "PRODUCCION_REAL_SIMULADA": 986,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 32,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "EPSILON",
+        "PRODUCCION_REAL_SIMULADA": 1314,
+        "PROYECCION_45": 2000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "EPSILON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "EPSILON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "EPSILON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "EPSILON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "EPSILON",
+        "PRODUCCION_REAL_SIMULADA": 891,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 43,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "EPSILON",
+        "PRODUCCION_REAL_SIMULADA": 2673,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "EPSILON",
+        "PRODUCCION_REAL_SIMULADA": 1336,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 254,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 846,
+        "PROYECCION_45": 3000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 3600,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 33,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 300,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 34,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 3600,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 2280,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 1520,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "FARIDA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "FIERO",
+        "PRODUCCION_REAL_SIMULADA": 3226,
+        "PROYECCION_45": 2500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "FIERO",
+        "PRODUCCION_REAL_SIMULADA": 774,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "FIESTA KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 1000,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 35,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "FIESTA KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 1700,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "FIESTA KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 6600,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "GOBLIN",
+        "PRODUCCION_REAL_SIMULADA": 500,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "GOBLIN",
+        "PRODUCCION_REAL_SIMULADA": 1250,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 33,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "GOBLIN",
+        "PRODUCCION_REAL_SIMULADA": 1250,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 800,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 4000,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 2800,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 2240,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 560,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 4550,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 1820,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 2730,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 97,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 2621,
+        "PROYECCION_45": 2700
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 582,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 700,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 1400,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 37,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 44,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 700,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HAMADA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 391,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 3909,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 4700,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 1691,
+        "PROYECCION_45": 2500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 21,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 609,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 4100,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 963,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 1445,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 482,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 2810,
+        "PROYECCION_45": 3500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HERMES",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 1650,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 16,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 1650,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 142,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 5690,
+        "PROYECCION_45": 4000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 1280,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 2134,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 854,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 5360,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 4020,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 4020,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 1122,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 4489,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "HERMES ORANGE",
+        "PRODUCCION_REAL_SIMULADA": 4489,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 1800,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 1800,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 3200,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 2000,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 2200,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 1120,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 1680,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 3186,
+        "PROYECCION_45": 2000
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 956,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 1912,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 956,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "IKEBANA",
+        "PRODUCCION_REAL_SIMULADA": 2390,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 0,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "JADE",
+        "PRODUCCION_REAL_SIMULADA": 1535,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "JADE",
+        "PRODUCCION_REAL_SIMULADA": 2559,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "JADE",
+        "PRODUCCION_REAL_SIMULADA": 1706,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "JADE",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "JADE",
+        "PRODUCCION_REAL_SIMULADA": 1300,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 52,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "JADE",
+        "PRODUCCION_REAL_SIMULADA": 1300,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 2100,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 5933,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 42,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 2967,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 3300,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 2467,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 4933,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 3300,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "KOMACHI",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "LEGE MARRONE",
+        "PRODUCCION_REAL_SIMULADA": 2800,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "LEGE MARRONE",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "LEGE MARRONE",
+        "PRODUCCION_REAL_SIMULADA": 300,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "LEGE MARRONE",
+        "PRODUCCION_REAL_SIMULADA": 2200,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "LEGE MARRONE",
+        "PRODUCCION_REAL_SIMULADA": 400,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "LEGE PINK",
+        "PRODUCCION_REAL_SIMULADA": 2100,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "LEGE PINK",
+        "PRODUCCION_REAL_SIMULADA": 1000,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "LEGE PINK",
+        "PRODUCCION_REAL_SIMULADA": 800,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "LEGE PINK",
+        "PRODUCCION_REAL_SIMULADA": 2000,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "LILAC MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 200,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "LILAC MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "LILAC MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 1846,
+        "PROYECCION_45": 2000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "LILAC MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "LILAC MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 554,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "LILAC MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 400,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 42,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "LILAC MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 1400,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "LILAC MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "LILAC MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 5733,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 2867,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 300,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 4000,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 700,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 6300,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 32,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 34,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "LINA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MANDALAY",
+        "PRODUCCION_REAL_SIMULADA": 1600,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "MARIPOSA",
+        "PRODUCCION_REAL_SIMULADA": 1300,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MARIPOSA",
+        "PRODUCCION_REAL_SIMULADA": 1700,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "MARIPOSA",
+        "PRODUCCION_REAL_SIMULADA": 3000,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MARIPOSA",
+        "PRODUCCION_REAL_SIMULADA": 1200,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 2500,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 750,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 51,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 375,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 375,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MELISSA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 150,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 150,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 150,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 150,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 20,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 1034,
+        "PROYECCION_45": 2000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 466,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 825,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 35,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 46,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 1375,
+        "PROYECCION_45": 2000
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 49,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MINUETTO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 20,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MOCHA SWEET",
+        "PRODUCCION_REAL_SIMULADA": 500,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 20,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MOCHA SWEET",
+        "PRODUCCION_REAL_SIMULADA": 500,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 4500,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 300,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 3600,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1956,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1467,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 2933,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1955,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1467,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 33,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 16,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1467,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 16,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1955,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1017,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1017,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 2033,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1017,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 1016,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 957,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 956,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 956,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 2869,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 956,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 21,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 8606,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 2677,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 2141,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 2141,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 2141,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 2420,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 2420,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 37,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 3227,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 4033,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "MOON LIGHT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "NIMBUS",
+        "PRODUCCION_REAL_SIMULADA": 2200,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "NIMBUS",
+        "PRODUCCION_REAL_SIMULADA": 1300,
+        "PROYECCION_45": 700
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "NOVIA",
+        "PRODUCCION_REAL_SIMULADA": 1629,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "NOVIA",
+        "PRODUCCION_REAL_SIMULADA": 2171,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "NOVIA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "NOVIA",
+        "PRODUCCION_REAL_SIMULADA": 5700,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "NOVIA",
+        "PRODUCCION_REAL_SIMULADA": 1200,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "OLYMPIA",
+        "PRODUCCION_REAL_SIMULADA": 1843,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "OLYMPIA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "OLYMPIA",
+        "PRODUCCION_REAL_SIMULADA": 2457,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "OLYMPIA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "PERFECT",
+        "PRODUCCION_REAL_SIMULADA": 1400,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 3700,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 0,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 672,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 0,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 0,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 2614,
+        "PROYECCION_45": 3500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 0,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1121,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1121,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 32,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 672,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 500,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 34,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1753,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1753,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1168,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 2337,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 33,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1168,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 53,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 32,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1168,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1753,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 967,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1933,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 33,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 35,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 20,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 500,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 0,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 3188,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1913,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 1912,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 3187,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 5,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 2671,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 3562,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 5,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 39,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 38,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 4452,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 891,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 3562,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PINK PIGEON",
+        "PRODUCCION_REAL_SIMULADA": 3562,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 23,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "PRADO MINT",
+        "PRODUCCION_REAL_SIMULADA": 1300,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "PRADO MINT",
+        "PRODUCCION_REAL_SIMULADA": 1125,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 19,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "PRADO MINT",
+        "PRODUCCION_REAL_SIMULADA": 375,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "PRADO MINT",
+        "PRODUCCION_REAL_SIMULADA": 3300,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "PRADO MINT",
+        "PRODUCCION_REAL_SIMULADA": 2500,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 31,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "PRADO MINT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 15,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PRADO MINT",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PRADO MINT",
+        "PRODUCCION_REAL_SIMULADA": 1960,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 33,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "PRADO MINT",
+        "PRODUCCION_REAL_SIMULADA": 2940,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "RODAS",
+        "PRODUCCION_REAL_SIMULADA": 1700,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "RODAS",
+        "PRODUCCION_REAL_SIMULADA": 1700,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "RODAS",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "RODAS",
+        "PRODUCCION_REAL_SIMULADA": 2400,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 36,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "RODAS",
+        "PRODUCCION_REAL_SIMULADA": 1600,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "RODAS",
+        "PRODUCCION_REAL_SIMULADA": 700,
+        "PROYECCION_45": 6000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ROMANY",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 11,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ROMANY",
+        "PRODUCCION_REAL_SIMULADA": 400,
+        "PROYECCION_45": 3500
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ROMANY",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ROMANY",
+        "PRODUCCION_REAL_SIMULADA": 1900,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "PRODUCCION_REAL_SIMULADA": 900,
+        "PROYECCION_45": 1000
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "PRODUCCION_REAL_SIMULADA": 1000,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 17,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "PRODUCCION_REAL_SIMULADA": 500,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ROYAL DAMASCUS",
+        "PRODUCCION_REAL_SIMULADA": 1300,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 2300,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 34,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 400,
+        "PROYECCION_45": 800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 1000,
+        "PROYECCION_45": 2000
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 2,
+        "NAVE NUEVA": 6,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 728,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 1093,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 729,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 36,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 1457,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 45,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 9,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "SKY LINE",
+        "PRODUCCION_REAL_SIMULADA": 1093,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "SOLEX",
+        "PRODUCCION_REAL_SIMULADA": 2200,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 4400,
+        "PROYECCION_45": 2100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 31,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 1600,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 24,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 4800,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 38,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 500,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 1900,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 440,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 31,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "TONIC GOLEM",
+        "PRODUCCION_REAL_SIMULADA": 1760,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 1200,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 13,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 5700,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 16,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 17,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 1400,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 10,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 4500,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 8,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 19,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "VERONA",
+        "PRODUCCION_REAL_SIMULADA": 6100,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "VIRGILIO",
+        "PRODUCCION_REAL_SIMULADA": 3000,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "VIRGILIO",
+        "PRODUCCION_REAL_SIMULADA": 3000,
+        "PROYECCION_45": 1800
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 6,
+        "NAVE NUEVA": 10,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "YUKARI CHERRY",
+        "PRODUCCION_REAL_SIMULADA": 2800,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "YUKARI CHERRY",
+        "PRODUCCION_REAL_SIMULADA": 1455,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "YUKARI CHERRY",
+        "PRODUCCION_REAL_SIMULADA": 2545,
+        "PROYECCION_45": 2100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 39,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "YUKARI CHERRY",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 41,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "YUKARI CHERRY",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 900,
+        "PROYECCION_45": 1500
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 13,
+        "NAVE NUEVA": 22,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 1446,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 4,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 14,
+        "NAVE NUEVA": 11,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 7,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 27,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 1927,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 15,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "LILIANA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 1927,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 9,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 3150,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 14,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 350,
+        "PROYECCION_45": 100
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "MONICA",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 1300,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 1292,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 26,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 1292,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 12,
+        "NAVE NUEVA": 32,
+        "SUPERVISOR": "SANDRA A.",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 216,
+        "PROYECCION_45": 200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 1,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 2053,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 3,
+        "NAVE NUEVA": 18,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 1027,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 2,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 1027,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 4,
+        "NAVE NUEVA": 31,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 1,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 513,
+        "PROYECCION_45": 300
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 20,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 1027,
+        "PROYECCION_45": 600
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 7,
+        "NAVE NUEVA": 29,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 16,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZEPPELIN",
+        "PRODUCCION_REAL_SIMULADA": 2053,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 12,
+        "SUPERVISOR": "DORALY",
+        "VARIEDAD": "ZURIGO",
+        "PRODUCCION_REAL_SIMULADA": 1100,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 3,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ZURIGO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 21,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ZURIGO",
+        "PRODUCCION_REAL_SIMULADA": 0,
+        "PROYECCION_45": 0
+    },
+    {
+        "FINCA": "SUASIA",
+        "BL NUEVO": 18,
+        "NAVE NUEVA": 30,
+        "SUPERVISOR": "MARCELA",
+        "VARIEDAD": "ZURIGO",
+        "PRODUCCION_REAL_SIMULADA": 5300,
+        "PROYECCION_45": 1200
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 25,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZURIGO",
+        "PRODUCCION_REAL_SIMULADA": 2600,
+        "PROYECCION_45": 900
+    },
+    {
+        "FINCA": "ZORRO",
+        "BL NUEVO": 8,
+        "NAVE NUEVA": 28,
+        "SUPERVISOR": "INGRID",
+        "VARIEDAD": "ZURIGO",
+        "PRODUCCION_REAL_SIMULADA": 5200,
+        "PROYECCION_45": 1800
+    }
+];

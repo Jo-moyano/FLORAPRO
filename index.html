@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLORAPRO | Proyección de producción</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header class="encabezado">
+    <div>
+        <h1>🌿 FLORAPRO</h1>
+        <p>Sistema de apoyo a la proyección de producción</p>
+    </div>
+</header>
+
+<main class="contenedor">
+    <section class="bienvenida">
+        <h2>Proyección de producción</h2>
+        <p>Consulta la proyección por finca y variedad y analiza su comportamiento semanal.</p>
+    </section>
+
+    <section class="filtros">
+        <div class="campo">
+            <label for="finca">Finca</label>
+            <select id="finca">
+                <option value="">Seleccione una finca</option>
+            </select>
+        </div>
+        <div class="campo">
+            <label for="variedad">Variedad</label>
+            <select id="variedad" disabled>
+                <option value="">Seleccione una variedad</option>
+            </select>
+        </div>
+        <div class="campo">
+            <label for="semana">Semana</label>
+            <select id="semana" disabled>
+                <option value="">Seleccione una semana</option>
+            </select>
+        </div>
+    </section>
+
+    <section class="resumen">
+        <div class="tarjeta"><span>Variedad</span><strong id="infoVariedad">-</strong></div>
+        <div class="tarjeta"><span>Proyección</span><strong id="infoProyeccion">-</strong></div>
+        <div class="tarjeta"><span>Producción real</span><strong id="infoProduccion">Pendiente</strong></div>
+        <div class="tarjeta"><span>Diferencia</span><strong id="infoDiferencia">Pendiente</strong></div>
+        <div class="tarjeta"><span>Variación</span><strong id="infoVariacion">Pendiente</strong></div>
+        <div class="tarjeta"><span>Bloques</span><strong id="infoBloques">-</strong></div>
+        <div class="tarjeta"><span>Naves</span><strong id="infoNaves">-</strong></div>
+        <div class="tarjeta"><span>Supervisores</span><strong id="infoSupervisores">-</strong></div>
+    </section>
+
+    <section class="seccion">
+        <div class="titulo-seccion">
+            <h2>📈 Comparación semanal</h2>
+            <p>Proyección registrada para la variedad seleccionada.</p>
+        </div>
+        <div class="tabla-contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semana</th>
+                        <th>Producción proyectada</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaComparacion">
+                    <tr><td colspan="2">Seleccione una finca y una variedad.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="seccion">
+        <div class="titulo-seccion">
+            <h2>🤖 Estimación FLORAPRO</h2>
+            <p>La producción real de la semana 39 se utiliza como referencia histórica. FLORAPRO estima las semanas siguientes y, al incorporar nuevos datos reales, puede comparar y ajustar progresivamente las estimaciones con el historial acumulado.</p>
+        </div>
+        <div class="tabla-contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Semana</th>
+                        <th>Dato de referencia</th>
+                        <th>Estimación FLORAPRO</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaEstimacion">
+                    <tr><td colspan="3">Seleccione una finca y una variedad.</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="mensajeEstimacion" class="nota"></div>
+    </section>
+
+    <section class="seccion">
+        <div class="titulo-seccion">
+            <h2>📍 Distribución por bloque y nave</h2>
+            <p>Detalle de la variedad seleccionada según los registros de proyección.</p>
+        </div>
+        <div class="tabla-contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bloque</th>
+                        <th>Nave</th>
+                        <th>Camas</th>
+                        <th>Supervisor</th>
+                        <th>Proyección</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaUbicacion">
+                    <tr><td colspan="5">Seleccione una finca y una variedad.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="seccion analisis">
+        <div class="titulo-seccion">
+            <h2>📊 Análisis</h2>
+        </div>
+        <p id="mensajeAnalisis">Seleccione una finca y una variedad para consultar el análisis.</p>
+    </section>
+</main>
+
+<footer>
+    <p>FLORAPRO · Prototipo académico de Ingeniería de Software</p>
+</footer>
+
+<script src="datos.js"></script>
+<script src="produccionReal.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
